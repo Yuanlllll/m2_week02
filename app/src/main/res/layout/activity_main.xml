@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<com.example.dell.m2_week02.views.TopBar
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:leftBackground="@drawable/left_selector"
+    app:rightBackground="@drawable/right_select"
+    app:titleText="首页"
+    app:titleTextColor="#00a2ff"
+    app:titleTextSize="18dp"
+
+    />
+
+
+    <com.hjm.bottomtabbar.BottomTabBar
+        android:id="@+id/bottom_tabar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.hjm.bottomtabbar.BottomTabBar>
+
+
+
+</LinearLayout>
